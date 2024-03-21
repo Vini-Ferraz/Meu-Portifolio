@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Yantramanav";
+}
+:root {
+  --fundo-primario: #121420;
+  --fundo-secundario: #1b2432;
+  --fundo-btn: #119da4;
+  --fundo-btn-hover: #08838a;
+  --fundo-btn-active: #d7263d;
+  --fonte-cor-clara: #fbfbfb;
+  --fonte-cor-escura: #000000;
+}
+
+.fundo-primario {
+  background-color: var(--fundo-primario);
+}
+.fundo-secundario {
+  background-color: var(--fundo-secundario);
+}
+.btn {
+  background-color: var(--fundo-btn);
+  color: var(--fonte-cor-escura);
+}
+.btn,
+#foto-perfil {
+  box-shadow: 5px 5px var(--fonte-cor-escura);
+}
+.btn:hover {
+  background-color: var(--fundo-btn-hover);
+}
+.btn:active {
+  background-color: var(--fundo-btn-active);
+  color: var(--fonte-cor-clara);
+}
+
+.fonte-cor-clara {
+  color: var(--fonte-cor-clara);
+}
+.fonte-cor-escura {
+  color: var(--fonte-cor-escura);
+}
+
+.icone {
+  fill: var(--fonte-cor-clara);
+  color: var(--fonte-cor-clara);
+}
+#itens-menu-navbar {
+  display: none;
+}
+.black {
+  font-weight: bold;
+}
