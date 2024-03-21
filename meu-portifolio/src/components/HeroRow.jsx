@@ -2,7 +2,7 @@ import { SocialMedias } from "./SocialMedias";
 
 export function HeroRow() {
   return (
-    <section className="px-6 pb-28 pt-52">
+    <section className="px-6 pb-28 pt-48">
       <article className="fonte-cor-clara pb-8">
         <SocialMedias />
         <h1 className="text-5xl	font-bold py-8">Vinícius aqui!</h1>

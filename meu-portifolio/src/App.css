@@ -44,10 +44,6 @@
   color: var(--fonte-cor-escura);
 }
 
-.icone {
-  fill: var(--fonte-cor-clara);
-  color: var(--fonte-cor-clara);
-}
 #itens-menu-navbar {
   display: none;
 }
