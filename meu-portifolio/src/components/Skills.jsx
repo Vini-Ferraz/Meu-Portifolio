@@ -1,6 +1,6 @@
 export function Skills() {
   return (
-    <section className="fundo-secundario p-6">
+    <section className="fundo-secundario p-6 mb-28">
       <ul className="flex justify-between items-center">
         <li>
           <img src="html5.svg" alt="Icone HTML" className="icone w-10" />
