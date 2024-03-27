@@ -1,8 +1,10 @@
 export function Project(props) {
   return (
-    <article className="mb-8 px-6 py-14 fundo-secundario">
-      <h2 className="text-3xl drop-shadow-md black mb-4">{props.name}</h2>
-      <p className="text-xl mb-4">{props.description}</p>
+    <article className="mb-8 px-6 py-14 fundo-secundario sm:px-14 lg:mx-24 p-8">
+      <h2 className="text-3xl drop-shadow-md black mb-4 md: text-4xl">
+        {props.name}
+      </h2>
+      <p className="text-xl mb-4 lg:w-5/6">{props.description}</p>
       <p className="text-xl mb-4">{props.technology}</p>
       <span>
         <a
@@ -10,21 +12,34 @@ export function Project(props) {
           target="_blank"
           className="btn text-xl px-6 py-2 font-bold mr-5"
         >
-          Ver Projeto
+          Projeto
         </a>
         <a
           href={props.codeLink}
           target="_blank"
           className="btn text-xl px-6 py-2 font-bold"
         >
-          Código-fonte
+          Código
         </a>
       </span>
-      <img
-        src={props.image}
-        alt={props.imageName}
-        className="mt-6 rounded-lg"
-      />
+      <picture>
+        <source
+          media="(max-width: 425px)"
+          srcSet={props.imageSmartPhone}
+          className="mt-6 rounded-lg"
+        />
+        <source
+          media="(max-width: 768px)"
+          srcSet={props.imageTablets}
+          className="mt-6 rounded-lg"
+        />
+        <source
+          media="(min-width: 1024px)"
+          srcSet={props.imageDesktops}
+          className="mt-6 rounded-lg"
+        />
+        <img srcSet={props.imageDesktops} className="mt-6 rounded-lg" />
+      </picture>
     </article>
   );
 }

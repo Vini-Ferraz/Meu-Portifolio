@@ -8,11 +8,33 @@
 :root {
   --fundo-primario: #121420;
   --fundo-secundario: #1b2432;
+  --fundo-terciario: #25334b;
   --fundo-btn: #119da4;
+  --brilho-hover: #09b944;
   --fundo-btn-hover: #08838a;
   --fundo-btn-active: #d7263d;
   --fonte-cor-clara: #fbfbfb;
   --fonte-cor-escura: #000000;
+}
+@keyframes change-color-tech {
+  from {
+    background-color: var(--fundo-terciario);
+    filter: drop-shadow(0px 0px 0px var(--fundo-btn));
+  }
+  to {
+    background-color: var(--fundo-btn-hover);
+    filter: drop-shadow(0px 0px 10px var(--fundo-btn));
+  }
+}
+@keyframes change-color-about-me {
+  from {
+    border-color: var(--fundo-btn);
+    box-shadow: -10px 0px 15px -5px var(--fundo-btn);
+  }
+  to {
+    border-color: var(--brilho-hover);
+    box-shadow: -10px 0px 15px -5px var(--brilho-hover);
+  }
 }
 
 .fundo-primario {
@@ -21,9 +43,13 @@
 .fundo-secundario {
   background-color: var(--fundo-secundario);
 }
+.fundo-terciario {
+  background-color: var(--fundo-terciario);
+}
 .btn {
   background-color: var(--fundo-btn);
   color: var(--fonte-cor-escura);
+  transition: all 175ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .btn,
 #foto-perfil {
@@ -44,9 +70,42 @@
   color: var(--fonte-cor-escura);
 }
 
-#itens-menu-navbar {
-  display: none;
-}
 .black {
   font-weight: bold;
+}
+
+.icone:hover {
+  filter: drop-shadow(0px 0px 1px var(--fundo-btn));
+}
+
+.tech {
+  background-color: var(--fundo-terciario);
+  transition: all 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  animation: change-color-tech linear;
+  animation-timeline: view();
+  animation-range: cover 0% cover 80%;
+}
+.tech:hover {
+  cursor: default;
+}
+
+.about-me-section {
+  border-color: var(--fundo-btn);
+  box-shadow: -10px 0px 15px -5px var(--fundo-btn);
+  animation: change-color-about-me linear;
+  animation-timeline: view();
+  animation-range: cover 0% cover 70%;
+}
+
+@media (min-width: 768px) {
+  .about-me-section {
+    border-color: var(--fundo-btn);
+    box-shadow: -10px 0px 15px -5px var(--fundo-btn);
+    animation: none;
+    transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .about-me-section:hover {
+    border-color: var(--brilho-hover);
+    box-shadow: -10px 0px 15px -5px var(--brilho-hover);
+  }
 }
