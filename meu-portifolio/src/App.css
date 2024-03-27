@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Yantramanav";
 }
+/*Define variáveis de cor*/
 :root {
   --fundo-primario: #121420;
   --fundo-secundario: #1b2432;
@@ -16,6 +17,7 @@
   --fonte-cor-clara: #fbfbfb;
   --fonte-cor-escura: #000000;
 }
+/*Animações*/
 @keyframes change-color-tech {
   from {
     background-color: var(--fundo-terciario);
@@ -36,7 +38,7 @@
     box-shadow: -10px 0px 15px -5px var(--brilho-hover);
   }
 }
-
+/*Define estilos para elementos com fundo primário, secundário e terciário*/
 .fundo-primario {
   background-color: var(--fundo-primario);
 }
@@ -100,7 +102,7 @@
   animation-timeline: view();
   animation-range: cover 0% cover 70%;
 }
-
+/*Estilos para dispositivos com largura mínima de 768px*/
 @media (min-width: 768px) {
   .about-me-section {
     border-color: var(--fundo-btn);

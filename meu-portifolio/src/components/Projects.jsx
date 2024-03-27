@@ -1,12 +1,13 @@
+/*Componente Projects*/
+/*Este componente representa a seção de projetos na página. Ele exibe uma lista de projetos, cada um representado pelo componente Project.*/
 import { Project } from "./Project";
-
 export function Projects() {
   return (
     <section
       className="fonte-cor-clara md:flex md:flex-col pb-28 md:justify-around md:items-center"
       id="Projetos"
     >
-      <h1 className="text-5xl font-bold pb-8 px-6 sm:px-14 sm:text-center md:text-left lg:px-24 lg:text-7xl">
+      <h1 className="text-5xl font-bold pb-8 px-6 sm:px-14 sm:text-center md:text-left lg:px-24 :text-7xl">
         Projetos
       </h1>
       <p className="text-xl pb-8 px-6 sm:px-14 md:text-center md:text-left md:w-2/3">

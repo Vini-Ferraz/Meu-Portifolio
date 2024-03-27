@@ -1,3 +1,5 @@
+/*Componente About Me*/
+/*Este componente renderiza a seção "Sobre Mim" na página.*/
 export function AboutMe() {
   return (
     <section

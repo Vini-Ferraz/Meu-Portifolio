@@ -1,6 +1,9 @@
+/*Componente SocialMedias*/
+/*Este componente representa uma lista de ícones de redes sociais, com efeitos de hover para destacar os ícones quando o mouse passa sobre eles.*/
 import { useState } from "react";
 
 export function SocialMedias() {
+  //Estados para controlar os efeitos de hover dos ícones
   const [handleHoverGH, setHandleHoverGH] = useState(false);
   const [handleHoverLI, setHandleHoverLI] = useState(false);
   const [handleHoverIG, setHandleHoverIG] = useState(false);

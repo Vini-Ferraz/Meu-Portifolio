@@ -1,3 +1,5 @@
+/*Componente Footer*/
+/*Este componente representa o rodapé da página. Ele exibe informações sobre o autor e os ícones de mídia social.*/
 import { SocialMedias } from "./SocialMedias";
 
 export function Footer() {

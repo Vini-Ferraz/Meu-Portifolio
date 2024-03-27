@@ -1,3 +1,5 @@
+/*Componente Project*/
+/*Este componente representa um projeto na página. Ele exibe o nome, descrição, tecnologias utilizadas, links para demonstração e código-fonte, e uma imagem responsiva do projeto.*/
 export function Project(props) {
   return (
     <article className="mb-8 px-6 py-14 fundo-secundario sm:px-14 lg:mx-24 p-8">
