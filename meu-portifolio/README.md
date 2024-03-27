@@ -10,9 +10,8 @@ Este portfólio foi desenvolvido como uma aplicação web para apresentar meus p
 
 - HTML
 - CSS
-- JavaScript
-- Tailwind CSS
 - React
+- Tailwind CSS
 
 ## Próximos Passos
 
