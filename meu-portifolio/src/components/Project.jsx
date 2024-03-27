@@ -1,7 +1,7 @@
 export function Project(props) {
   return (
     <article className="mb-8 px-6 py-14 fundo-secundario sm:px-14 lg:mx-24 p-8">
-      <h2 className="text-3xl drop-shadow-md black mb-4 md: text-4xl">
+      <h2 className="text-3xl drop-shadow-md font-bold	 mb-4 md: text-4xl">
         {props.name}
       </h2>
       <p className="text-xl mb-4 lg:w-5/6">{props.description}</p>

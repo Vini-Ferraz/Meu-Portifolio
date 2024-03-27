@@ -1,7 +1,7 @@
 export function AboutMe() {
   return (
     <section
-      className="fonte-cor-clara px-6 pb-28 sm:px-14 md:px-32 lg:px-60"
+      className="fonte-cor-clara px-6 pb-28 sm:px-14 md:px-32 lg:px-24"
       id="Sobre-Mim"
     >
       <h1 className="text-5xl font-bold pb-8 sm: text-center lg:text-7xl">

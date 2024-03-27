@@ -69,11 +69,6 @@
 .fonte-cor-escura {
   color: var(--fonte-cor-escura);
 }
-
-.black {
-  font-weight: bold;
-}
-
 .icone:hover {
   filter: drop-shadow(0px 0px 1px var(--fundo-btn));
 }
@@ -87,6 +82,15 @@
 }
 .tech:hover {
   cursor: default;
+}
+.menuItens {
+  transition: all 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.menuItens:hover {
+  color: var(--fundo-btn);
+}
+.menuItens:active {
+  color: var(--fundo-btn-active);
 }
 
 .about-me-section {
@@ -107,5 +111,14 @@
   .about-me-section:hover {
     border-color: var(--brilho-hover);
     box-shadow: -10px 0px 15px -5px var(--brilho-hover);
+  }
+  .tech {
+    background-color: var(--fundo-terciario);
+    transition: all 350ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  .tech:hover {
+    background-color: var(--fundo-btn-hover);
+    filter: drop-shadow(0px 0px 10px var(--fundo-btn));
+    cursor: default;
   }
 }

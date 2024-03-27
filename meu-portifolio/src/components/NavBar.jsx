@@ -13,7 +13,7 @@ export function NavBar({ screenWidth }) {
   return (
     <>
       <div className="flex justify-between items-center">
-        <p className="text-3xl drop-shadow-md black tracking-wider lg: text-4xl">
+        <p className="text-3xl drop-shadow-md font-bold	 tracking-wider lg:text-4xl">
           <a href="#">Vini Ferraz</a>
         </p>
         {screenWidth < 900 ? (
@@ -24,14 +24,20 @@ export function NavBar({ screenWidth }) {
           <>
             <div className="py-5">
               <ul className="flex text-2xl" id="itens-menu-navbar">
-                <li className="pr-5">
-                  <a href="#Habilidades">Habilidades</a>
+                <li className="pr-7">
+                  <a href="#Habilidades" className="menuItens">
+                    Habilidades
+                  </a>
                 </li>
-                <li className="pr-5">
-                  <a href="#Projetos">Projetos</a>
+                <li className="pr-7">
+                  <a href="#Projetos" className="menuItens">
+                    Projetos
+                  </a>
                 </li>
                 <li>
-                  <a href="#Sobre-Mim">Sobre mim</a>
+                  <a href="#Sobre-Mim" className="menuItens">
+                    Sobre mim
+                  </a>
                 </li>
               </ul>
             </div>
