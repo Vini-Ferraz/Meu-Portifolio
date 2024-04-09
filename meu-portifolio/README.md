@@ -17,4 +17,4 @@ Este portfólio foi desenvolvido como uma aplicação web para apresentar meus p
 
 Como desenvolvedor front-end júnior, estou sempre buscando oportunidades para aprender e crescer. Meus próximos passos incluem aprofundar meu conhecimento em tecnologias front-end, explorar novas ferramentas e frameworks, e colaborar em projetos desafiadores que me permitam expandir minhas habilidades.
 
-Se você está interessado em colaborar ou gostaria de saber mais sobre meu trabalho, sinta-se à vontade para entrar em contato. Estou ansioso para novas oportunidades de aprendizado e crescimento no campo do desenvolvimento web
+Se você está interessado em colaborar ou gostaria de saber mais sobre meu trabalho, sinta-se à vontade para entrar em contato. Estou ansioso para novas oportunidades de aprendizado e crescimento no campo do desenvolvimento web.
