@@ -2,7 +2,7 @@
 /*Este componente representa a barra de navegação da página. Ele exibe o nome do autor e os itens do menu de navegação.*/
 import { useState } from "react";
 import { SocialMedias } from "./SocialMedias";
-
+import { IconeMenu } from "../assets/images/menu";
 export function NavBar({ screenWidth }) {
   // Estado para controlar o estado de exibição do menu móvel
   const [handleClick, setHandleClick] = useState(false);
@@ -24,7 +24,7 @@ export function NavBar({ screenWidth }) {
           //Renderização condicional: exibe o botão do menu móvel se a largura da tela for inferior a 900 pixels
           screenWidth < 900 ? (
             <button onClick={() => switcher(handleClick)}>
-              <img src="menu.svg" alt="icone menu" className="h-12" />
+              <IconeMenu />
             </button>
           ) : (
             <>

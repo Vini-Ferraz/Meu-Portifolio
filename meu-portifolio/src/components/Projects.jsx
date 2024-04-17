@@ -1,6 +1,23 @@
 /*Componente Projects*/
 /*Este componente representa a seção de projetos na página. Ele exibe uma lista de projetos, cada um representado pelo componente Project.*/
 import { Project } from "./Project";
+import GeradorDeSenhaTelasDesktop from "../assets/images/gerador-de-senhas-telas-desktop.png";
+import GeradorDeSenhaTelasTablet from "../assets/images/gerador-de-senhas-telas-tablet.png";
+import GeradorDeSenhaTelasMobile from "../assets/images/gerador-de-senhas-telas-mobile.png";
+import BussinesCardGeneratorDesktop from "../assets/images/bussines-card-generator-telas-desktop.png";
+import BussinesCardGeneratorTablet from "../assets/images/bussines-card-generator-telas-tablet.png";
+import BussinesCardGeneratorMobile from "../assets/images/bussines-card-generator-telas-mobile.png";
+import WhosThatPokemonDesktop from "../assets/images/who's-that-pokémon-telas-desktop.png";
+import WhosThatPokemonTablet from "../assets/images/who's-that-pokémon-telas-tablet.png";
+import WhosThatPokemonMobile from "../assets/images/who's-that-pokémon-telas-mobile.png";
+import NaturezaVivaDesktop from "../assets/images/natureza-viva-telas-desktop.png";
+import NaturezaVivaTablet from "../assets/images/natureza-viva-telas-tablet.png";
+import NaturezaVivaMobile from "../assets/images/natureza-viva-telas-mobile.png";
+
+import CieAestheticsDesktop from "../assets/images/cie-aesthetics-telas-desktop.png";
+import CieAestheticsTablet from "../assets/images/cie-aesthetics-telas-tablet.png";
+import CieAestheticsMobile from "../assets/images/cie-aesthetics-telas-mobile.png";
+
 export function Projects() {
   return (
     <section
@@ -20,9 +37,9 @@ export function Projects() {
         technology="Tecnologias Utilizadas:  HTML, CSS, JavaScript"
         demoLink="https://vini-ferraz.github.io/geradorDeSenhas/"
         codeLink="https://github.com/Vini-Ferraz/geradorDeSenhas"
-        imageSmartPhone="gerador-de-senhas-telas-mobile.png"
-        imageTablets="gerador-de-senhas-telas-tablet.png"
-        imageDesktops="gerador-de-senhas-telas-desktop.png"
+        imageSmartPhone={GeradorDeSenhaTelasMobile}
+        imageTablets={GeradorDeSenhaTelasTablet}
+        imageDesktops={GeradorDeSenhaTelasDesktop}
       />
       <Project
         name="Gerador de Business Card 🪪"
@@ -30,9 +47,9 @@ export function Projects() {
         technology="Tecnologias Utilizadas:  React, html2canvas"
         demoLink="https://vini-ferraz.github.io/bussinesCardGenerator/"
         codeLink="https://github.com/Vini-Ferraz/bussinesCardGenerator"
-        imageSmartPhone="bussines-card-generator-telas-mobile.png"
-        imageTablets="bussines-card-generator-tablet.png"
-        imageDesktops="bussines-card-generator-telas-desktop.png"
+        imageSmartPhone={BussinesCardGeneratorMobile}
+        imageTablets={BussinesCardGeneratorTablet}
+        imageDesktops={BussinesCardGeneratorDesktop}
       />
       <Project
         name="Who's that Pokémon?!⚡"
@@ -40,9 +57,9 @@ export function Projects() {
         technology="Tecnologias Utilizadas: React, Tailwind CSS"
         demoLink="https://vini-ferraz.github.io/whosThatPokemon/"
         codeLink="https://github.com/Vini-Ferraz/whosThatPokemon"
-        imageSmartPhone="who's-that-pokémon-telas-mobile.png"
-        imageTablets="who's-that-pokémon-telas-tablet.png"
-        imageDesktops="who's-that-pokémon-telas-desktop.png"
+        imageSmartPhone={WhosThatPokemonMobile}
+        imageTablets={WhosThatPokemonTablet}
+        imageDesktops={WhosThatPokemonDesktop}
       />
       <Project
         name="Natureza Viva 🍃"
@@ -50,9 +67,9 @@ export function Projects() {
         technology="Tecnologias Utilizadas: HTML, Bootstrap, CSS"
         demoLink="https://vini-ferraz.github.io/Natureza-Viva/"
         codeLink="https://github.com/Vini-Ferraz/Natureza-Viva"
-        imageSmartPhone="natureza-viva-telas-mobile.png"
-        imageTablets="natureza-viva-telas-tablet.png"
-        imageDesktops="natureza-viva-telas-desktop.png"
+        imageSmartPhone={NaturezaVivaMobile}
+        imageTablets={NaturezaVivaTablet}
+        imageDesktops={NaturezaVivaDesktop}
       />
       <Project
         name="Cie Aesthetics 💍"
@@ -60,9 +77,9 @@ export function Projects() {
         technology="Tecnologias Utilizadas:  HTML, CSS, JavaScript (Swiper)"
         demoLink="https://vini-ferraz.github.io/Cie-Aesthetics/"
         codeLink="https://github.com/Vini-Ferraz/Cie-Aesthetics"
-        imageSmartPhone="cie-aesthetics-telas-mobile.png"
-        imageTablets="cie-aesthetics-telas-tablet.png"
-        imageDesktops="cie-aesthetics-telas-desktop.png"
+        imageSmartPhone={CieAestheticsMobile}
+        imageTablets={CieAestheticsTablet}
+        imageDesktops={CieAestheticsDesktop}
       />
     </section>
   );

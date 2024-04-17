@@ -1,7 +1,12 @@
 /*Componente SocialMedias*/
 /*Este componente representa uma lista de ícones de redes sociais, com efeitos de hover para destacar os ícones quando o mouse passa sobre eles.*/
 import { useState } from "react";
-
+import { IconeGithub } from "../assets/images/github.jsx";
+import { IconeGithubHover } from "../assets/images/github-hover.jsx";
+import { IconeLinkedIn } from "../assets/images/linkedin.jsx";
+import { IconeLinkedInHover } from "../assets/images/linkedin-hover.jsx";
+import { IconeInstagram } from "../assets/images/instagram.jsx";
+import { IconeInstagramHover } from "../assets/images/instagram-hover.jsx";
 export function SocialMedias() {
   //Estados para controlar os efeitos de hover dos ícones
   const [handleHoverGH, setHandleHoverGH] = useState(false);
@@ -17,15 +22,7 @@ export function SocialMedias() {
           onMouseOver={() => setHandleHoverGH(true)}
           onMouseLeave={() => setHandleHoverGH(false)}
         >
-          {handleHoverGH == true ? (
-            <img
-              src="github-hover.svg"
-              alt="Icone GitHub"
-              className="icone w-10"
-            />
-          ) : (
-            <img src="github.svg" alt="Icone GitHub" className="icone w-10" />
-          )}
+          {handleHoverGH == false ? <IconeGithub /> : <IconeGithubHover />}
         </a>
       </li>
       <li className="px-7">
@@ -35,19 +32,7 @@ export function SocialMedias() {
           onMouseOver={() => setHandleHoverLI(true)}
           onMouseLeave={() => setHandleHoverLI(false)}
         >
-          {handleHoverLI == true ? (
-            <img
-              src="linkedin-hover.svg"
-              alt="Icone LinkedIn"
-              className="icone w-10"
-            />
-          ) : (
-            <img
-              src="linkedin.svg"
-              alt="Icone LinkedIn"
-              className="icone w-10"
-            />
-          )}
+          {handleHoverLI == false ? <IconeLinkedIn /> : <IconeLinkedInHover />}
         </a>
       </li>
       <li>
@@ -57,18 +42,10 @@ export function SocialMedias() {
           onMouseOver={() => setHandleHoverIG(true)}
           onMouseLeave={() => setHandleHoverIG(false)}
         >
-          {handleHoverIG == true ? (
-            <img
-              src="instagram-hover.svg"
-              alt="Icone Instagram"
-              className="icone w-10"
-            />
+          {handleHoverIG == false ? (
+            <IconeInstagram />
           ) : (
-            <img
-              src="instagram.svg"
-              alt="Icone Instagram"
-              className="icone w-10"
-            />
+            <IconeInstagramHover />
           )}
         </a>
       </li>

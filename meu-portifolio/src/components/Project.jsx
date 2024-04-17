@@ -38,7 +38,7 @@ export function Project(props) {
         <source
           media="(min-width: 1024px)"
           srcSet={props.imageDesktops}
-          className="mt-6 rounded-lg"
+          className="mt-6 rounded-lg aspect-video"
         />
         <img srcSet={props.imageDesktops} className="mt-6 rounded-lg" />
       </picture>
