@@ -17,5 +17,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "visible") {
+          document.title = "Seja Bem-vindo 😊";
+        } else {
+          document.title = "Estamos com saudades 😢";
+        }
+      });
+    </script>
   </body>
 </html>
