@@ -4,13 +4,13 @@ import ImagemSobreMim from "../assets/images/sobre-mim-imagem.jpeg";
 export function AboutMe() {
   return (
     <section
-      className="fonte-cor-clara px-6 pb-28 sm:px-14 md:px-32 lg:px-24"
+      className="fonte-cor-clara px-6 pb-28 sm:px-14 lg:px-24"
       id="Sobre-Mim"
     >
       <h1 className="text-5xl font-bold pb-8 sm: text-center lg:text-7xl">
         Sobre mim
       </h1>
-      <div className="text-xl sm:grid grid-cols-2	gap-6">
+      <div className="text-xl sm:grid grid-cols-2	gap-6 items-center	">
         <p className="about-me-section border-l-4 pl-5 py-5 rounded-lg sm:mb-0">
           Comecei com Python, mas logo me encantei pelo desenvolvimento
           front-end. Desde 2022, tenho me dedicado a aprimorar minhas

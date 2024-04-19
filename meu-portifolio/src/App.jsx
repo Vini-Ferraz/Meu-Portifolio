@@ -24,7 +24,7 @@ export function App() {
 
   return (
     <>
-      <nav className="fundo-secundario fonte-cor-clara p-6 border-b-4 border-b-teal-50 fixed w-full z-10 sm:px-14 lg:px-24">
+      <nav className="fundo-secundario fonte-cor-clara p-2 border-b-4 border-b-teal-50 fixed w-full z-10 sm:px-14 lg:px-24">
         <NavBar screenWidth={screenWidth} />
       </nav>
       <main className="fundo-primario">

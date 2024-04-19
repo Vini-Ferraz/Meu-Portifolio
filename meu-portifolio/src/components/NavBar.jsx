@@ -23,7 +23,7 @@ export function NavBar({ screenWidth }) {
             <img
               src={logo}
               alt="ilustração de um alien verde minimalista"
-              className="w-24"
+              className="w-20"
             />
           </a>
         </p>
