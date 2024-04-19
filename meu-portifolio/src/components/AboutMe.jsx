@@ -12,27 +12,24 @@ export function AboutMe() {
       </h1>
       <div className="text-xl sm:grid grid-cols-2	gap-6 items-center	">
         <p className="about-me-section border-l-4 pl-5 py-5 rounded-lg sm:mb-0">
-          Comecei com Python, mas logo me encantei pelo desenvolvimento
-          front-end. Desde 2022, tenho me dedicado a aprimorar minhas
-          habilidades nesse campo, criando projetos funcionais e úteis para as
-          pessoas.
-          <br />
-          <br />
-          Atualmente, estou dedicando meu tempo ao aprimoramento das minhas
-          habilidades em React e lógica de programação. Tenho planos de explorar
-          o desenvolvimento back-end para criar aplicações ainda mais
-          interessantes no futuro.
-          <br />
-          <br />
           Trabalho bem em equipe, valorizando a colaboração e o compartilhamento
           de ideias para alcançar objetivos comuns. Sou proativo e persistente,
-          buscando soluções mesmo diante de desafios complexos.
+          buscando soluções mesmo diante de desafios.
           <br />
           <br />
-          Além do desenvolvimento front-end, tenho um interesse curioso em
-          pesquisar sobre criptídeos e avistamentos de aliens, o que me ajuda a
-          manter uma mente criativa e aberta para novas ideias e
-          possibilidades.👽
+          Atualmente, estou focado em melhorar minhas habilidades em React e
+          lógica de programação, com planos futuros de explorar o
+          desenvolvimento back-end.
+          <br />
+          <br />
+          Comecei com Python, mas logo me apaixonei pelo desenvolvimento
+          front-end. Desde 2022, tenho me dedicado a aprimorar minhas
+          habilidades nesse campo, criando projetos funcionais.
+          <br />
+          <br />
+          Além do desenvolvimento front-end, mantenho um interesse curioso em
+          pesquisar sobre criptídeos e avistamentos de aliens, o que alimenta
+          minha mente criativa para novas ideias e possibilidades.👽"
         </p>
         <img
           src={ImagemSobreMim}
