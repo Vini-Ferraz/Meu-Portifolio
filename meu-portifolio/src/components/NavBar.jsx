@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { SocialMedias } from "./SocialMedias";
 import { IconeMenu } from "../assets/images/menu";
+import logo from "../assets/images/favIconPortifolio.png";
 export function NavBar({ screenWidth }) {
   // Estado para controlar o estado de exibição do menu móvel
   const [handleClick, setHandleClick] = useState(false);
@@ -18,7 +19,9 @@ export function NavBar({ screenWidth }) {
     <>
       <div className="flex justify-between items-center">
         <p className="text-3xl drop-shadow-md font-bold	 tracking-wider lg:text-4xl">
-          <a href="#">Vini Ferraz</a>
+          <a href="#">
+            <img src={logo} alt="" className="w-24" />
+          </a>
         </p>
         {
           //Renderização condicional: exibe o botão do menu móvel se a largura da tela for inferior a 900 pixels
