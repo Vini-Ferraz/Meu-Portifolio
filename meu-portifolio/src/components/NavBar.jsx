@@ -2,7 +2,7 @@
 /*Este componente representa a barra de navegação da página. Ele exibe o nome do autor e os itens do menu de navegação.*/
 import { useState } from "react";
 import { SocialMedias } from "./SocialMedias";
-import { IconeMenu } from "../assets/images/menu";
+import { IconeMenu } from "../assets/icons/menu";
 import logo from "../assets/images/favIconPortifolio.png";
 export function NavBar({ screenWidth }) {
   // Estado para controlar o estado de exibição do menu móvel
@@ -20,7 +20,11 @@ export function NavBar({ screenWidth }) {
       <div className="flex justify-between items-center">
         <p className="text-3xl drop-shadow-md font-bold	 tracking-wider lg:text-4xl">
           <a href="#">
-            <img src={logo} alt="" className="w-24" />
+            <img
+              src={logo}
+              alt="ilustração de um alien verde minimalista"
+              className="w-24"
+            />
           </a>
         </p>
         {

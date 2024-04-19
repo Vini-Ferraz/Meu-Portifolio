@@ -34,7 +34,11 @@ export function AboutMe() {
           manter uma mente criativa e aberta para novas ideias e
           possibilidades.👽
         </p>
-        <img src={ImagemSobreMim} alt="" className="rounded-lg" />
+        <img
+          src={ImagemSobreMim}
+          alt="Uma pixel arte de um alien verde sentado em frente de um notebook codando."
+          className="rounded-lg"
+        />
       </div>
     </section>
   );

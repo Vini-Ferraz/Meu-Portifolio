@@ -1,12 +1,12 @@
 /*Componente SocialMedias*/
 /*Este componente representa uma lista de ícones de redes sociais, com efeitos de hover para destacar os ícones quando o mouse passa sobre eles.*/
 import { useState } from "react";
-import { IconeGithub } from "../assets/images/github.jsx";
-import { IconeGithubHover } from "../assets/images/github-hover.jsx";
-import { IconeLinkedIn } from "../assets/images/linkedin.jsx";
-import { IconeLinkedInHover } from "../assets/images/linkedin-hover.jsx";
-import { IconeInstagram } from "../assets/images/instagram.jsx";
-import { IconeInstagramHover } from "../assets/images/instagram-hover.jsx";
+import { IconeGithub } from "../assets/icons/github.jsx";
+import { IconeGithubHover } from "../assets/icons/github-hover.jsx";
+import { IconeLinkedIn } from "../assets/icons/linkedin.jsx";
+import { IconeLinkedInHover } from "../assets/icons/linkedin-hover.jsx";
+import { IconeInstagram } from "../assets/icons/instagram.jsx";
+import { IconeInstagramHover } from "../assets/icons/instagram-hover.jsx";
 export function SocialMedias() {
   //Estados para controlar os efeitos de hover dos ícones
   const [handleHoverGH, setHandleHoverGH] = useState(false);
