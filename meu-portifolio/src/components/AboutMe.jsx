@@ -11,7 +11,7 @@ export function AboutMe() {
         Sobre mim
       </h1>
       <div className="text-xl md:flex justify-between items-center gap-6 items-center h-4/5">
-        <div className="about-me-section border-l-4 pl-5 py-5 h-max rounded-lg mb-8 sm:w-full	 md:mb-0">
+        <div className="about-me-section border-l-4 pl-5 py-5 h-max rounded-lg mb-8 sm:w-full	md:mb-0">
           <p>
             Trabalho bem em equipe, valorizando a colaboração e o
             compartilhamento de ideias para alcançar objetivos comuns. Sou
