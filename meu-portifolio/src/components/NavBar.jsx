@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { SocialMedias } from "./SocialMedias";
 import { IconeMenu } from "../assets/icons/menu";
-import logo from "../assets/images/favIconPortifolio.png";
+import logo from "../assets/images/favIconPortifolio.webp";
 export function NavBar({ screenWidth }) {
   // Estado para controlar o estado de exibição do menu móvel
   const [handleClick, setHandleClick] = useState(false);

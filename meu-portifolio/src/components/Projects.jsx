@@ -1,22 +1,21 @@
 /*Componente Projects*/
 /*Este componente representa a seção de projetos na página. Ele exibe uma lista de projetos, cada um representado pelo componente Project.*/
 import { Project } from "./Project";
-import GeradorDeSenhaTelasDesktop from "../assets/images/gerador-de-senhas-telas-desktop.png";
-import GeradorDeSenhaTelasTablet from "../assets/images/gerador-de-senhas-telas-tablet.png";
-import GeradorDeSenhaTelasMobile from "../assets/images/gerador-de-senhas-telas-mobile.png";
-import BussinesCardGeneratorDesktop from "../assets/images/bussines-card-generator-telas-desktop.png";
-import BussinesCardGeneratorTablet from "../assets/images/bussines-card-generator-telas-tablet.png";
-import BussinesCardGeneratorMobile from "../assets/images/bussines-card-generator-telas-mobile.png";
-import WhosThatPokemonDesktop from "../assets/images/who's-that-pokémon-telas-desktop.png";
-import WhosThatPokemonTablet from "../assets/images/who's-that-pokémon-telas-tablet.png";
-import WhosThatPokemonMobile from "../assets/images/who's-that-pokémon-telas-mobile.png";
-import NaturezaVivaDesktop from "../assets/images/natureza-viva-telas-desktop.png";
-import NaturezaVivaTablet from "../assets/images/natureza-viva-telas-tablet.png";
-import NaturezaVivaMobile from "../assets/images/natureza-viva-telas-mobile.png";
-
-import CieAestheticsDesktop from "../assets/images/cie-aesthetics-telas-desktop.png";
-import CieAestheticsTablet from "../assets/images/cie-aesthetics-telas-tablet.png";
-import CieAestheticsMobile from "../assets/images/cie-aesthetics-telas-mobile.png";
+import GeradorDeSenhaTelasDesktop from "../assets/images/gerador-de-senhas-telas-desktop.webp";
+import GeradorDeSenhaTelasTablet from "../assets/images/gerador-de-senhas-telas-tablet.webp";
+import GeradorDeSenhaTelasMobile from "../assets/images/gerador-de-senhas-telas-mobile.webp";
+import BussinesCardGeneratorDesktop from "../assets/images/bussines-card-generator-telas-desktop.webp";
+import BussinesCardGeneratorTablet from "../assets/images/bussines-card-generator-telas-tablet.webp";
+import BussinesCardGeneratorMobile from "../assets/images/bussines-card-generator-telas-mobile.webp";
+import WhosThatPokemonDesktop from "../assets/images/who's-that-pokémon-telas-desktop.webp";
+import WhosThatPokemonTablet from "../assets/images/who's-that-pokémon-telas-tablet.webp";
+import WhosThatPokemonMobile from "../assets/images/who's-that-pokémon-telas-mobile.webp";
+import NaturezaVivaDesktop from "../assets/images/natureza-viva-telas-desktop.webp";
+import NaturezaVivaTablet from "../assets/images/natureza-viva-telas-tablet.webp";
+import NaturezaVivaMobile from "../assets/images/natureza-viva-telas-mobile.webp";
+import CieAestheticsDesktop from "../assets/images/cie-aesthetics-telas-desktop.webp";
+import CieAestheticsTablet from "../assets/images/cie-aesthetics-telas-tablet.webp";
+import CieAestheticsMobile from "../assets/images/cie-aesthetics-telas-mobile.webp";
 
 export function Projects() {
   return (

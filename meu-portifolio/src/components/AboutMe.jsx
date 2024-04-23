@@ -1,6 +1,6 @@
 /*Componente About Me*/
 /*Este componente renderiza a seção "Sobre Mim" na página.*/
-import ImagemSobreMim from "../assets/images/sobre-mim-imagem.jpeg";
+import ImagemSobreMim from "../assets/images/sobre-mim-imagem.webp";
 export function AboutMe() {
   return (
     <section
