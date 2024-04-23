@@ -20,7 +20,7 @@ export function AboutMe() {
             <br />
             Atualmente, estou focado em melhorar minhas habilidades em React e
             lógica de programação, com planos futuros de explorar o
-            desenvolvimento back-end.
+            desenvolvimento back-end
             <br />
             <br />
             Comecei com Python, mas logo me apaixonei pelo desenvolvimento
