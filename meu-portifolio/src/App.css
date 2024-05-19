@@ -28,16 +28,7 @@
     filter: drop-shadow(0px 0px 10px var(--fundo-btn));
   }
 }
-@keyframes change-color-about-me {
-  from {
-    border-color: var(--fundo-btn);
-    box-shadow: -10px 0px 15px -5px var(--fundo-btn);
-  }
-  to {
-    border-color: var(--brilho-hover);
-    box-shadow: -10px 0px 15px -5px var(--brilho-hover);
-  }
-}
+
 /*Define estilos para elementos com fundo primário, secundário e terciário*/
 .fundo-primario {
   background-color: var(--fundo-primario);
@@ -95,13 +86,6 @@
   color: var(--fundo-btn-active);
 }
 
-.about-me-section {
-  border-color: var(--fundo-btn);
-  box-shadow: -10px 0px 15px -5px var(--fundo-btn);
-  animation: change-color-about-me linear;
-  animation-timeline: view();
-  animation-range: cover 0% cover 70%;
-}
 /*Estilos para dispositivos com largura mínima de 768px*/
 @media (min-width: 768px) {
   .about-me-section {

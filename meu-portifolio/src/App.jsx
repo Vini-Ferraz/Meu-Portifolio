@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer";
 import { HeroRow } from "./components/HeroRow";
 import { NavBar } from "./components/NavBar";
 import { Projects } from "./components/Projects";
+
 import { Skills } from "./components/Skills";
 
 export function App() {
@@ -30,7 +31,7 @@ export function App() {
       <main className="fundo-primario">
         <HeroRow screenWidth={screenWidth} />
         <Skills />
-        <Projects />
+        <Projects screenWidth={screenWidth} />
         <AboutMe />
       </main>
       <footer className="fundo-secundario py-6">

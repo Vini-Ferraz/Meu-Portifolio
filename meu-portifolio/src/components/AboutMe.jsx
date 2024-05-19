@@ -1,6 +1,5 @@
 /*Componente About Me*/
 /*Este componente renderiza a seção "Sobre Mim" na página.*/
-import ImagemSobreMim from "../assets/images/sobre-mim-imagem.webp";
 export function AboutMe() {
   return (
     <section
@@ -10,34 +9,26 @@ export function AboutMe() {
       <h1 className="text-5xl font-bold pb-8 sm:text-center lg:text-7xl">
         Sobre mim
       </h1>
-      <div className="text-xl md:flex justify-between items-center gap-6 items-center h-4/5">
-        <div className="about-me-section border-l-4 pl-5 py-5 h-max rounded-lg mb-8 sm:w-full	md:mb-0">
+      <div className="text-xl h-4/5">
+        <div className="py-5 h-max rounded-lg mb-8 sm:w-full">
           <p>
             Trabalho bem em equipe, valorizando a colaboração e o
             compartilhamento de ideias para alcançar objetivos comuns. Sou
             proativo e persistente, buscando soluções mesmo diante de desafios.
             <br />
-            <br />
             Atualmente, estou focado em melhorar minhas habilidades em React e
             lógica de programação, com planos futuros de explorar o
-            desenvolvimento back-end
-            <br />
+            desenvolvimento back-end.
             <br />
             Comecei com Python, mas logo me apaixonei pelo desenvolvimento
             front-end. Desde 2022, tenho me dedicado a aprimorar minhas
             habilidades nesse campo, criando projetos funcionais.
-            <br />
             <br />
             Além do desenvolvimento front-end, mantenho um interesse curioso em
             pesquisar sobre criptídeos e avistamentos de aliens, o que alimenta
             minha mente criativa para novas ideias e possibilidades.👽
           </p>
         </div>
-        <img
-          src={ImagemSobreMim}
-          alt="Uma pixel arte de um alien verde sentado em frente de um notebook codando."
-          className="rounded-lg md:w-2/4 h-fit"
-        />
       </div>
     </section>
   );

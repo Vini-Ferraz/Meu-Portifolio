@@ -18,7 +18,7 @@ export function Skills() {
   ];
   return (
     <section className="mb-28 fonte-cor-clara" id="Habilidades">
-      <h1 className="text-5xl px-8 pb-8 font-bold sm:px-14 text-center lg:text-7xl">
+      <h1 className="text-5xl font-bold pb-8 px-6 sm:text-center lg:text-7xl">
         Habilidades
       </h1>
       <article className="fundo-secundario">
