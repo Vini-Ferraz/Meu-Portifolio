@@ -22,7 +22,7 @@ export function AboutMe() {
             <br />
             Comecei com Python, mas logo me apaixonei pelo desenvolvimento
             front-end. Desde 2022, tenho me dedicado a aprimorar minhas
-            habilidades nesse campo, criando projetos funcionais.
+            habilidades nesse campo, criando projetos funcionais
             <br />
             Além do desenvolvimento front-end, mantenho um interesse curioso em
             pesquisar sobre criptídeos e avistamentos de aliens, o que alimenta
