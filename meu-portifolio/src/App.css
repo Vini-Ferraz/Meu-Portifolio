@@ -29,6 +29,18 @@
   }
 }
 
+@keyframes flutting-ufo {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /*Define estilos para elementos com fundo primário, secundário e terciário*/
 .fundo-primario {
   background-color: var(--fundo-primario);
@@ -84,6 +96,12 @@
 }
 .menuItens:active {
   color: var(--fundo-btn-active);
+}
+
+#disco-voador {
+  animation: flutting-ufo ease-in-out;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
 }
 
 /*Estilos para dispositivos com largura mínima de 768px*/

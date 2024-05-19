@@ -1,6 +1,7 @@
 /*Componente HeroRow */
 /*Este componente representa a linha de destaque na parte superior da página (hero section). Ele exibe uma breve introdução e uma imagem do autor, juntamente com links para outras seções da página.*/
 import { SocialMedias } from "./SocialMedias";
+import discoVoador from "../assets/images/disco-voador.png";
 import eu from "../assets/images/eu.webp";
 
 export function HeroRow({ screenWidth }) {
@@ -33,9 +34,9 @@ export function HeroRow({ screenWidth }) {
       </article>
       <figure>
         <img
-          src={eu}
-          alt="imagem de um homem negro bonito, jovem, sorrindo"
-          id="foto-perfil"
+          src={discoVoador}
+          alt="um disco voador no estilo adesivo"
+          id="disco-voador"
         />
       </figure>
     </section>
