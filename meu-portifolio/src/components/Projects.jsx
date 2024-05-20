@@ -1,6 +1,8 @@
 /*Componente Projects*/
 /*Este componente representa a seção de projetos na página. Ele exibe uma lista de projetos, cada um representado pelo componente Project.*/
 import { Project } from "./Project";
+import { useEffect, useRef } from "react";
+import { register } from "swiper/element/bundle";
 import GeradorDeSenhaTelasDesktop from "../assets/images/gerador-de-senhas-telas-desktop.webp";
 import GeradorDeSenhaTelasTablet from "../assets/images/gerador-de-senhas-telas-tablet.webp";
 import GeradorDeSenhaTelasMobile from "../assets/images/gerador-de-senhas-telas-mobile.webp";
@@ -17,22 +19,45 @@ import CieAestheticsDesktop from "../assets/images/cie-aesthetics-telas-desktop.
 import CieAestheticsTablet from "../assets/images/cie-aesthetics-telas-tablet.webp";
 import CieAestheticsMobile from "../assets/images/cie-aesthetics-telas-mobile.webp";
 
-export function Projects({ screenWidth }) {
+export function Projects() {
+  const swiperRef = useRef(null);
+
+  useEffect(() => {
+    // Register Swiper web component
+    register();
+
+    // Object with parameters
+
+    const params = {
+      effect: "flip",
+      pagination: true,
+      speed: 750,
+      loop: true,
+      autoplay: {
+        delay: 7000,
+        pauseOnMouseEnter: true,
+      },
+      pagination: {
+        clickable: true,
+      },
+    };
+
+    // Assign it to swiper element
+    Object.assign(swiperRef.current, params);
+
+    // initialize swiper
+    swiperRef.current.initialize();
+  }, []);
   return (
     <section
       className="fonte-cor-clara pb-28 md:justify-around md:items-center"
       id="Projetos"
     >
-      <h1 className="text-5xl font-bold pb-8 px-6 sm:text-center lg:text-7xl">
+      <h1 className="text-5xl font-bold px-6 sm:text-center lg:text-7xl">
         Projetos
       </h1>
 
-      <swiper-container
-        pagination="true"
-        speed="500"
-        loop="true"
-        autoplay-delay="5000"
-      >
+      <swiper-container init="false" ref={swiperRef}>
         <Project
           name="Gerador de Senhas Aleatórias 🔐"
           description="Ferramenta interativa que cria senhas robustas e personalizadas, fortalecendo sua proteção online. Oferece opções flexíveis de personalização e possui uma interface intuitiva para garantir a segurança dos seus dados com facilidade e confiança."

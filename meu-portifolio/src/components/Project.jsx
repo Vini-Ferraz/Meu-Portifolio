@@ -3,7 +3,7 @@
 export function Project(props) {
   return (
     <swiper-slide className="mb-8 px-6 py-14 fundo-secundario sm:px-14 p-8">
-      <h2 className="text-3xl drop-shadow-md font-bold mb-4 px-6 sm:px-14 md:text-4xl lg:px-24">
+      <h2 className="text-3xl drop-shadow-md font-bold mb-4 px-6 pt-8 sm:px-14 md:text-4xl lg:px-24">
         {props.name}
       </h2>
       <p className="text-xl mb-4 px-6 sm:px-14 lg:w-5/6 lg:px-24">
