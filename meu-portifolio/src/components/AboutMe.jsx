@@ -15,7 +15,7 @@ export function AboutMe() {
           <p className="pb-5">
             🤝 Valorizo a colaboração e o compartilhamento de ideias para
             alcançar objetivos comuns. Sou proativo e persistente, sempre
-            buscando soluções diante de desafios.
+            buscando soluções diante de desafios
           </p>
           <p className="pb-5">
             💻 Estou aprimorando minhas habilidades em React e lógica de
