@@ -1,4 +1,5 @@
 /*Componente About Me*/
+import eu from "../assets/images/eu.webp";
 /*Este componente renderiza a seção "Sobre Mim" na página.*/
 export function AboutMe() {
   return (
@@ -9,26 +10,32 @@ export function AboutMe() {
       <h1 className="text-5xl font-bold pb-8 sm:text-center lg:text-7xl">
         Sobre mim
       </h1>
-      <div className="text-xl h-4/5">
-        <div className="py-5 h-max rounded-lg mb-8 sm:w-full">
+      <div className="text-xl h-4/5 md:flex justify-between items-center gap-6">
+        <div className="py-5 rounded-lg mb-8 md:w-3/5 lg:w-1/2">
+          <p className="pb-5">
+            🤝 Valorizo a colaboração e o compartilhamento de ideias para
+            alcançar objetivos comuns. Sou proativo e persistente, sempre
+            buscando soluções diante de desafios.
+          </p>
+          <p className="pb-5">
+            💻 Estou aprimorando minhas habilidades em React e lógica de
+            programação. Planejo explorar o desenvolvimento back-end no futuro.
+          </p>
+          <p className="pb-5">
+            👨‍💻 Comecei com Python, mas me apaixonei pelo desenvolvimento
+            front-end. Desde 2022, dedico-me a criar projetos funcionais e a
+            melhorar minhas habilidades.
+          </p>
           <p>
-            Trabalho bem em equipe, valorizando a colaboração e o
-            compartilhamento de ideias para alcançar objetivos comuns. Sou
-            proativo e persistente, buscando soluções mesmo diante de desafios.
-            <br />
-            Atualmente, estou focado em melhorar minhas habilidades em React e
-            lógica de programação, com planos futuros de explorar o
-            desenvolvimento back-end.
-            <br />
-            Comecei com Python, mas logo me apaixonei pelo desenvolvimento
-            front-end. Desde 2022, tenho me dedicado a aprimorar minhas
-            habilidades nesse campo, criando projetos funcionais
-            <br />
-            Além do desenvolvimento front-end, mantenho um interesse curioso em
-            pesquisar sobre criptídeos e avistamentos de aliens, o que alimenta
-            minha mente criativa para novas ideias e possibilidades.👽
+            👽 Tenho um interesse curioso por criptídeos e avistamentos de
+            aliens, o que estimula minha criatividade.
           </p>
         </div>
+        <img
+          src={eu}
+          alt="imagem de um homem negro bonito, jovem, sorrindo"
+          id="foto-perfil"
+        />
       </div>
     </section>
   );
