@@ -19,7 +19,7 @@ import CieAestheticsDesktop from "../assets/images/cie-aesthetics-telas-desktop.
 import CieAestheticsTablet from "../assets/images/cie-aesthetics-telas-tablet.webp";
 import CieAestheticsMobile from "../assets/images/cie-aesthetics-telas-mobile.webp";
 
-export function Projects() {
+export function Projects({ screenWidth }) {
   const swiperRef = useRef(null);
 
   useEffect(() => {
@@ -29,10 +29,11 @@ export function Projects() {
     // Object with parameters
 
     const params = {
-      effect: "flip",
+      effect: "coverflow",
       pagination: true,
       speed: 750,
       loop: true,
+      navigation: true,
       autoplay: {
         delay: 7000,
         pauseOnMouseEnter: true,
@@ -42,8 +43,19 @@ export function Projects() {
       },
     };
 
-    // Assign it to swiper element
-    Object.assign(swiperRef.current, params);
+    const paramsMobile = {
+      speed: 750,
+      loop: true,
+      autoplay: {
+        delay: 7000,
+      },
+    };
+
+    if (screenWidth > 425) {
+      Object.assign(swiperRef.current, params);
+    } else {
+      Object.assign(swiperRef.current, paramsMobile);
+    }
 
     // initialize swiper
     swiperRef.current.initialize();
