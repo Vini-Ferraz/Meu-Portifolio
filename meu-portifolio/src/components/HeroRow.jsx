@@ -20,7 +20,7 @@ export function HeroRow({ screenWidth }) {
             HTML, CSS, Bootstrap, Tailwind, JavaScript e React
           </span>{" "}
           para criar projetos web dinâmicos e funcionais. Estou animado para
-          continuar aprendendo e evoluindo no mundo do desenvolvimento web. 🚀💻
+          continuar aprendendo e evoluindo no mundo do desenvolvimento web 🚀💻
         </p>
         <span className="fonte-cor-escura flex flex-wrap gap-4">
           <a href="#Projetos" className="btn text-xl px-6 py-2 font-bold">
