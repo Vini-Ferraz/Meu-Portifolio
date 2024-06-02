@@ -93,6 +93,7 @@ export function Projects({ screenWidth }) {
         <Project
           name="Who's that Pokémon?!⚡"
           description="Jogo interativo desenvolvido com React, utilizando a API PokeAPI. Oferece três níveis de dificuldade e um tempo limite para adivinhar o Pokémon. Exibe a pontuação atual e a melhor pontuação ao final de cada jogo, com a opção de jogar novamente para aprimorar habilidades e conhecimentos sobre Pokémon."
+          technology="Tecnologias Utilizadas: React, RESTful API, Tailwind"
           demoLink="https://vini-ferraz.github.io/whosThatPokemon/"
           codeLink="https://github.com/Vini-Ferraz/whosThatPokemon"
           imageSmartPhone={WhosThatPokemonMobile}

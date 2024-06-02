@@ -1,5 +1,7 @@
 /*Componente Skills*/
 /*Este componente representa a seção de habilidades na página. Ele exibe uma lista de tecnologias nas quais o autor tem habilidades.*/
+import { useInView, animated } from "@react-spring/web";
+
 export function Skills() {
   // Lista de tecnologias
   const technologies = [
