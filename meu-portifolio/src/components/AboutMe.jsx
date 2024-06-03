@@ -1,7 +1,40 @@
 /*Componente About Me*/
 import eu from "../assets/images/eu.webp";
+import { useInView, animated } from "@react-spring/web";
+
 /*Este componente renderiza a seção "Sobre Mim" na página.*/
 export function AboutMe() {
+  const [refArticle, springsArticle] = useInView(
+    () => ({
+      from: {
+        x: -400,
+        opacity: 0,
+      },
+      to: {
+        x: 0,
+        opacity: 1,
+      },
+    }),
+    {
+      rootMargin: "-40% 0%",
+    }
+  );
+
+  const [refImage, springsImage] = useInView(
+    () => ({
+      from: {
+        transform: "scale(0)",
+        opacity: 0,
+      },
+      to: {
+        transform: "scale(1)",
+        opacity: 1,
+      },
+    }),
+    {
+      rootMargin: "-20% 0%",
+    }
+  );
   return (
     <section
       className="fonte-cor-clara px-6 pb-28 sm:px-14 lg:px-24"
@@ -11,7 +44,13 @@ export function AboutMe() {
         Sobre mim
       </h1>
       <div className="text-xl h-4/5 md:flex justify-between items-center gap-6">
-        <div className="py-5 rounded-lg mb-8 md:w-3/5 lg:w-1/2">
+        <animated.div
+          className="py-5 rounded-lg mb-8 md:w-3/5 lg:w-1/2"
+          ref={refArticle}
+          style={{
+            ...springsArticle,
+          }}
+        >
           <p className="pb-5">
             🤝 Valorizo a colaboração e o compartilhamento de ideias para
             alcançar objetivos comuns. Sou proativo e persistente, sempre
@@ -30,11 +69,15 @@ export function AboutMe() {
             👽 Tenho um interesse curioso por criptídeos e avistamentos de
             aliens, o que estimula minha criatividade.
           </p>
-        </div>
-        <img
+        </animated.div>
+        <animated.img
           src={eu}
           alt="imagem de um homem negro bonito, jovem, sorrindo"
           id="foto-perfil"
+          ref={refImage}
+          style={{
+            ...springsImage,
+          }}
         />
       </div>
     </section>
