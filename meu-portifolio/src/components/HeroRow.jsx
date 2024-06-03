@@ -33,7 +33,7 @@ export function HeroRow({ screenWidth }) {
       },
     }),
     {
-      rootMargin: "-40% 0%",
+      rootMargin: "-20% 0%",
     }
   );
   return (
