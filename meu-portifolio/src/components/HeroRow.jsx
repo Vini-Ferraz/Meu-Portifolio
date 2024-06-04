@@ -78,7 +78,7 @@ export function HeroRow({ screenWidth }) {
       >
         <img
           src={discoVoador}
-          alt="um disco voador no estilo adesivo"
+          alt="um disco voador no estilo adesivo."
           id="disco-voador"
         />
       </animated.figure>
