@@ -8,7 +8,7 @@ export function HeroRow({ screenWidth }) {
   const [refArticle, springsArticle] = useInView(
     () => ({
       from: {
-        x: -400,
+        x: -250,
         opacity: 0,
       },
       to: {
