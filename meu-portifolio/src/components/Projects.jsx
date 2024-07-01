@@ -30,16 +30,15 @@ export function Projects({ screenWidth }) {
 
     const params = {
       effect: "coverflow",
-      pagination: true,
+      pagination: {
+        clickable: true,
+      },
       speed: 750,
       loop: true,
       navigation: true,
       autoplay: {
         delay: 7000,
         pauseOnMouseEnter: true,
-      },
-      pagination: {
-        clickable: true,
       },
     };
 
@@ -59,7 +58,7 @@ export function Projects({ screenWidth }) {
 
     // initialize swiper
     swiperRef.current.initialize();
-  }, []);
+  });
   return (
     <section
       className="fonte-cor-clara pb-28 md:justify-around md:items-center"
