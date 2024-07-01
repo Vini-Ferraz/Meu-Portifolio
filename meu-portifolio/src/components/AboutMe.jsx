@@ -43,9 +43,9 @@ export function AboutMe() {
       <h1 className="text-5xl font-bold pb-8 sm:text-center lg:text-7xl">
         Sobre mim
       </h1>
-      <div className="text-xl h-4/5 md:flex justify-between items-center gap-6">
+      <div className="text-xl h-4/5 lg:flex-nowrap md:flex sm:flex-wrap justify-between items-center gap-6">
         <animated.div
-          className="py-5 rounded-lg mb-8 md:w-3/5 lg:w-1/2"
+          className="py-5 rounded-lg mb-8  lg:w-1/2 sm:w-full"
           ref={refArticle}
           style={{
             ...springsArticle,
