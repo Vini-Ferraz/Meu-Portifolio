@@ -65,14 +65,14 @@ export function Projects({ screenWidth }) {
       id="Projetos"
     >
       <h1 className="text-5xl font-bold px-6 sm:text-center lg:text-7xl">
-        Projetos
+        Projects
       </h1>
 
       <swiper-container init="false" ref={swiperRef}>
         <Project
-          name="Gerador de Senhas Aleatórias 🔐"
-          description="Ferramenta interativa que cria senhas robustas e personalizadas, fortalecendo sua proteção online. Oferece opções flexíveis de personalização e possui uma interface intuitiva para garantir a segurança dos seus dados com facilidade e confiança."
-          technology="Tecnologias Utilizadas:  HTML, CSS, JavaScript"
+          name="Random Password Generator 🔐"
+          description="Interactive tool that creates strong and personalized passwords, enhancing your online protection. Offers flexible customization options and has an intuitive interface to ensure the security of your data with ease and confidence."
+          technology="Technologies Used: HTML, CSS, JavaScript"
           demoLink="https://vini-ferraz.github.io/geradorDeSenhas/"
           codeLink="https://github.com/Vini-Ferraz/geradorDeSenhas"
           imageSmartPhone={GeradorDeSenhaTelasMobile}
@@ -80,9 +80,9 @@ export function Projects({ screenWidth }) {
           imageDesktops={GeradorDeSenhaTelasDesktop}
         />
         <Project
-          name="Gerador de Business Card 🪪"
-          description="Aplicação interativa desenvolvida com React e html2canvas para criar cartões de visita digitais personalizados. Permite inserir informações e visualizar alterações em tempo real, com funcionalidade de download integrada para fácil salvamento e uso dos cartões."
-          technology="Tecnologias Utilizadas:  React, html2canvas"
+          name="Business Card Generator 🪪"
+          description="Interactive application developed with React and html2canvas to create personalized digital business cards. Allows you to enter information and view changes in real-time, with integrated download functionality for easy saving and use of the cards."
+          technology="Technologies Used: React, html2canvas"
           demoLink="https://vini-ferraz.github.io/bussinesCardGenerator/"
           codeLink="https://github.com/Vini-Ferraz/bussinesCardGenerator"
           imageSmartPhone={BussinesCardGeneratorMobile}
@@ -91,8 +91,8 @@ export function Projects({ screenWidth }) {
         />
         <Project
           name="Who's that Pokémon?!⚡"
-          description="Jogo interativo desenvolvido com React, utilizando a API PokeAPI. Oferece três níveis de dificuldade e um tempo limite para adivinhar o Pokémon. Exibe a pontuação atual e a melhor pontuação ao final de cada jogo, com a opção de jogar novamente para aprimorar habilidades e conhecimentos sobre Pokémon."
-          technology="Tecnologias Utilizadas: React, RESTful API, Tailwind"
+          description="Interactive game developed with React, using the PokeAPI. Offers three difficulty levels and a time limit to guess the Pokémon. Displays the current score and the best score at the end of each game, with the option to play again to improve skills and knowledge about Pokémon."
+          technology="Technologies Used: React, RESTful API, Tailwind"
           demoLink="https://vini-ferraz.github.io/whosThatPokemon/"
           codeLink="https://github.com/Vini-Ferraz/whosThatPokemon"
           imageSmartPhone={WhosThatPokemonMobile}
@@ -102,8 +102,8 @@ export function Projects({ screenWidth }) {
 
         <Project
           name="Natureza Viva 🍃"
-          description="Este site, criado para uma empresa fictícia de turismo ecológico chamada 'Natureza Viva', é um convite para descobrir a exuberância da natureza. Com designs inspiradores e uma abordagem visualmente cativante, transportamos os visitantes para destinos eco-amigáveis ao redor do mundo."
-          technology="Tecnologias Utilizadas: HTML, Bootstrap, CSS"
+          description="This website, created for a fictional eco-tourism company called 'Natureza Viva', is an invitation to discover the exuberance of nature. With inspiring designs and a visually captivating approach, we transport visitors to eco-friendly destinations around the world."
+          technology="Technologies Used: HTML, Bootstrap, CSS"
           demoLink="https://vini-ferraz.github.io/Natureza-Viva/"
           codeLink="https://github.com/Vini-Ferraz/Natureza-Viva"
           imageSmartPhone={NaturezaVivaMobile}
@@ -113,8 +113,8 @@ export function Projects({ screenWidth }) {
 
         <Project
           name="Cie Aesthetics 💍"
-          description="Site institucional que exibe peças artesanais feitas à mão, desenvolvido para uma amiga empreendedora. Otimizado para SEO e integrado com a biblioteca Swiper, oferece uma experiência de navegação suave e encantadora, destacando a beleza e a singularidade dos produtos."
-          technology="Tecnologias Utilizadas:  HTML, CSS, JavaScript (Swiper)"
+          description="Institutional website showcasing handmade artisanal pieces, developed for an entrepreneurial friend. Optimized for SEO and integrated with the Swiper library, it offers a smooth and delightful browsing experience, highlighting the beauty and uniqueness of the products."
+          technology="Technologies Used: HTML, CSS, JavaScript (Swiper)"
           demoLink="https://vini-ferraz.github.io/Cie-Aesthetics/"
           codeLink="https://github.com/Vini-Ferraz/Cie-Aesthetics"
           imageSmartPhone={CieAestheticsMobile}
