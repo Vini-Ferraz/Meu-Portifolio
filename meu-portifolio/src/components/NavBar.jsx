@@ -39,17 +39,17 @@ export function NavBar({ screenWidth }) {
                 <ul className="flex text-2xl" id="itens-menu-navbar">
                   <li className="pr-7">
                     <a href="#Habilidades" className="menuItens">
-                      Habilidades
+                      Skills
                     </a>
                   </li>
                   <li className="pr-7">
                     <a href="#Projetos" className="menuItens">
-                      Projetos
+                      Projects
                     </a>
                   </li>
                   <li>
                     <a href="#Sobre-Mim" className="menuItens">
-                      Sobre mim
+                      About me
                     </a>
                   </li>
                 </ul>
@@ -65,16 +65,16 @@ export function NavBar({ screenWidth }) {
           <div className="py-5">
             <ul className="flex flex-col text-2xl" id="itens-menu-navbar">
               <li className="pb-5" onClick={() => switcher(handleClick)}>
-                <a href="#Habilidades">Habilidades</a>
+                <a href="#Habilidades">Skills</a>
               </li>
               <li className="pb-5">
                 <a href="#Projetos" onClick={() => switcher(handleClick)}>
-                  Projetos
+                  Projects
                 </a>
               </li>
               <li>
                 <a href="#Sobre-Mim" onClick={() => switcher(handleClick)}>
-                  Sobre mim
+                  About me
                 </a>
               </li>
             </ul>
