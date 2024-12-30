@@ -1,8 +1,8 @@
-/*Componente About Me*/
+/*Component About Me*/
 import eu from "../assets/images/eu.webp";
 import { useInView, animated } from "@react-spring/web";
 
-/*Este componente renderiza a seção "Sobre Mim" na página.*/
+/*This component renders the "About Me" section on the page.*/
 export function AboutMe() {
   const [refArticle, springsArticle] = useInView(
     () => ({
@@ -41,7 +41,7 @@ export function AboutMe() {
       id="Sobre-Mim"
     >
       <h1 className="text-5xl font-bold pb-8 sm:text-center lg:text-7xl">
-        Sobre mim
+        About Me
       </h1>
       <div className="text-xl h-4/5 lg:flex-nowrap md:flex sm:flex-wrap justify-between items-center gap-6">
         <animated.div
@@ -52,27 +52,27 @@ export function AboutMe() {
           }}
         >
           <p className="pb-5">
-            🤝 Valorizo a colaboração e o compartilhamento de ideias para
-            alcançar objetivos comuns. Sou proativo e persistente, sempre
-            buscando soluções diante de desafios.
+            🤝 I value collaboration and sharing ideas to achieve common goals.
+            I am proactive and persistent, always seeking solutions in the face
+            of challenges.
           </p>
           <p className="pb-5">
-            💻 Estou aprimorando minhas habilidades em React e lógica de
-            programação. Planejo explorar o desenvolvimento back-end no futuro.
+            💻 I am improving my skills in React and programming logic. I plan
+            to explore back-end development in the future.
           </p>
           <p className="pb-5">
-            👨‍💻 Comecei com Python, mas me apaixonei pelo desenvolvimento
-            front-end. Desde 2022, dedico-me a criar projetos funcionais e a
-            melhorar minhas habilidades.
+            👨‍💻 I started with Python, but I fell in love with front-end
+            development. Since 2022, I have been dedicated to creating
+            functional projects and improving my skills.
           </p>
           <p>
-            👽 Tenho um interesse curioso por criptídeos e avistamentos de
-            aliens, o que estimula minha criatividade.
+            👽 I have a curious interest in cryptids and alien sightings, which
+            stimulates my creativity.
           </p>
         </animated.div>
         <animated.img
           src={eu}
-          alt="imagem de um homem negro bonito, jovem, sorrindo"
+          alt="image of a handsome young black man smiling"
           id="foto-perfil"
           ref={refImage}
           style={{
