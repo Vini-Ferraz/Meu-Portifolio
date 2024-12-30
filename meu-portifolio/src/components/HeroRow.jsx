@@ -1,5 +1,5 @@
-/*Componente HeroRow */
-/*Este componente representa a linha de destaque na parte superior da página (hero section). Ele exibe uma breve introdução e uma imagem do autor, juntamente com links para outras seções da página.*/
+/*HeroRow Component */
+/*This component represents the highlight row at the top of the page (hero section). It displays a brief introduction and an image of the author, along with links to other sections of the page.*/
 import { SocialMedias } from "./SocialMedias";
 import discoVoador from "../assets/images/disco-voador.png";
 import { useInView, animated } from "@react-spring/web";
@@ -46,26 +46,26 @@ export function HeroRow({ screenWidth }) {
         }}
       >
         {
-          /*Renderização condicional: exibe o componente SocialMedias apenas se a largura da tela for inferior a 900 pixels*/
+          /*Conditional rendering: displays the SocialMedias component only if the screen width is less than 900 pixels*/
           screenWidth < 900 ? <SocialMedias /> : null
         }
-        <h1 className="text-5xl	font-bold py-8 lg:text-7xl">Vinícius aqui!</h1>
+        <h1 className="text-5xl	font-bold py-8 lg:text-7xl">Vinícius here!</h1>
         <p className="text-xl pb-8">
-          Sou um desenvolvedor front-end autodidata. Estou sempre em busca de
-          novos desafios para aprimorar minhas habilidades. Trabalho com{" "}
+          I am a self-taught front-end developer. I am always looking for new
+          challenges to improve my skills. I work with{" "}
           <span className="font-bold">
             {" "}
-            HTML, CSS, Bootstrap, Tailwind, JavaScript e React
+            HTML, CSS, Bootstrap, Tailwind, JavaScript, and React
           </span>{" "}
-          para criar projetos web dinâmicos e funcionais. Estou animado para
-          continuar aprendendo e evoluindo no mundo do desenvolvimento web 🚀💻
+          to create dynamic and functional web projects. I am excited to
+          continue learning and evolving in the world of web development 🚀💻
         </p>
         <span className="fonte-cor-escura flex flex-wrap gap-4">
           <a href="#Projetos" className="btn text-xl px-6 py-2 font-bold">
-            Projetos
+            Projects
           </a>
           <a href="#Sobre-Mim" className="btn text-xl px-4 py-2 font-bold">
-            Sobre mim
+            About me
           </a>
         </span>
       </animated.article>
@@ -78,7 +78,7 @@ export function HeroRow({ screenWidth }) {
       >
         <img
           src={discoVoador}
-          alt="um disco voador no estilo adesivo."
+          alt="a sticker-style flying saucer."
           id="disco-voador"
         />
       </animated.figure>
