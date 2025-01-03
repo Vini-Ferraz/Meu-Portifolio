@@ -8,6 +8,7 @@ export function Skills() {
     "CSS",
     "JavaScript",
     "React",
+    "WordPress",
     "Bootstrap",
     "Git",
     "SEO",
@@ -16,6 +17,8 @@ export function Skills() {
     "RESTful API",
     "UI/UX Design",
     "Figma",
+    "NPM",
+    "Performance Optimization",
   ];
   return (
     <section className="mb-28 fonte-cor-clara" id="Habilidades">
@@ -23,7 +26,7 @@ export function Skills() {
         Habilidades
       </h1>
       <article className="fundo-secundario">
-        <div className="flex flex-wrap justify-center px-8 py-16 gap-4 sm:px-14 md:grid md:grid-cols-3 md:text-center lg:px-24">
+        <div className="flex flex-wrap justify-center align-center px-8 py-16 gap-4 sm:px-14 md:grid md:grid-cols-3 md:text-center lg:px-24">
           {
             /*Mapeamento da lista de tecnologias para exibição*/
             technologies.map((nome, index) => (

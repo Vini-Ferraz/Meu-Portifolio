@@ -78,7 +78,7 @@ export function HeroRow({ screenWidth }) {
       >
         <img
           src={discoVoador}
-          alt="a sticker-style flying saucer."
+          alt="a sticker-style flying UFO."
           id="disco-voador"
         />
       </animated.figure>
