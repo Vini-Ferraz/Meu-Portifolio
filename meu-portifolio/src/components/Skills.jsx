@@ -23,7 +23,7 @@ export function Skills() {
   return (
     <section className="mb-28 fonte-cor-clara" id="Habilidades">
       <h1 className="text-5xl font-bold pb-8 px-6 sm:text-center lg:text-7xl">
-        Skills
+        Habilidades
       </h1>
       <article className="fundo-secundario">
         <div className="flex flex-wrap justify-center align-center px-8 py-16 gap-4 sm:px-14 md:grid md:grid-cols-3 md:text-center lg:px-24">
