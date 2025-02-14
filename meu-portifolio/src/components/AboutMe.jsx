@@ -41,7 +41,7 @@ export function AboutMe() {
       id="Sobre-Mim"
     >
       <h1 className="text-5xl font-bold pb-8 sm:text-center lg:text-7xl">
-        About Me
+        Sobre mim
       </h1>
       <div className="text-xl h-4/5 lg:flex-nowrap md:flex sm:flex-wrap justify-between items-center gap-6">
         <animated.div
@@ -52,22 +52,22 @@ export function AboutMe() {
           }}
         >
           <p className="pb-5">
-            🤝 I value collaboration and sharing ideas to achieve common goals.
-            I am proactive and persistent, always seeking solutions in the face
-            of challenges.
+            🤝 Valorizo a colaboração e o compartilhamento de ideias para
+            alcançar objetivos comuns. Sou proativo e persistente, sempre
+            buscando soluções diante de desafios.
           </p>
           <p className="pb-5">
-            💻 I am improving my skills in React and programming logic. I plan
-            to explore back-end development in the future.
+            💻 Estou aprimorando minhas habilidades em React e lógica de
+            programação. Planejo explorar o desenvolvimento back-end no futuro.
           </p>
           <p className="pb-5">
-            👨‍💻 I started with Python, but I fell in love with front-end
-            development. Since 2022, I have been dedicated to creating
-            functional projects and improving my skills.
+            👨‍💻 Comecei com Python, mas me apaixonei pelo desenvolvimento
+            front-end. Desde 2022, dedico-me a criar projetos funcionais e a
+            melhorar minhas habilidades.
           </p>
           <p>
-            👽 I have a curious interest in cryptids and alien sightings, which
-            stimulates my creativity.
+            👽 Tenho um interesse curioso por criptídeos e avistamentos de
+            aliens, o que estimula minha criatividade.
           </p>
         </animated.div>
         <animated.img

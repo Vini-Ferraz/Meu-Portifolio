@@ -49,23 +49,23 @@ export function HeroRow({ screenWidth }) {
           /*Conditional rendering: displays the SocialMedias component only if the screen width is less than 900 pixels*/
           screenWidth < 900 ? <SocialMedias /> : null
         }
-        <h1 className="text-5xl	font-bold py-8 lg:text-7xl">Vinícius here!</h1>
+        <h1 className="text-5xl	font-bold py-8 lg:text-7xl">Vinícius aqui!</h1>
         <p className="text-xl pb-8">
-          I am a self-taught front-end developer. I am always looking for new
-          challenges to improve my skills. I work with{" "}
+          Sou um desenvolvedor front-end autodidata. Estou sempre em busca de
+          novos desafios para aprimorar minhas habilidades. Trabalho com{" "}
           <span className="font-bold">
             {" "}
             HTML, CSS, Bootstrap, Tailwind, JavaScript, and React
           </span>{" "}
-          to create dynamic and functional web projects. I am excited to
-          continue learning and evolving in the world of web development 🚀💻
+          para criar projetos web dinâmicos e funcionais. Estou animado para
+          continuar aprendendo e evoluindo no mundo do desenvolvimento web 🚀💻
         </p>
         <span className="fonte-cor-escura flex flex-wrap gap-4">
           <a href="#Projetos" className="btn text-xl px-6 py-2 font-bold">
-            Projects
+            Projetos
           </a>
           <a href="#Sobre-Mim" className="btn text-xl px-4 py-2 font-bold">
-            About me
+            Sobre mim
           </a>
         </span>
       </animated.article>
