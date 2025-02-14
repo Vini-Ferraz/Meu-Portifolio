@@ -27,7 +27,7 @@ export function SocialMedias() {
       </li>
       <li className="px-7">
         <a
-          href="https://www.linkedin.com/in/vin%C3%ADcius-augusto-de-almeida-ferraz-5038022a0/"
+          href="https://www.linkedin.com/in/vini-ferraz/"
           target="_blank"
           onMouseOver={() => setHandleHoverLI(true)}
           onMouseLeave={() => setHandleHoverLI(false)}
@@ -37,7 +37,7 @@ export function SocialMedias() {
       </li>
       <li>
         <a
-          href="https://www.instagram.com/viniferraz72/"
+          href="https://www.instagram.com/vini_ferraz_sites/"
           target="_blank"
           onMouseOver={() => setHandleHoverIG(true)}
           onMouseLeave={() => setHandleHoverIG(false)}
